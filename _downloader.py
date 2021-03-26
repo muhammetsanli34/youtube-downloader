@@ -3,7 +3,7 @@ import youtube_dl
 
 count=input("Enter the song count: ")
  
-links=[]
+links=[] 
 
 for i in range(0,int(count)):
     enter = input ("Enter the link: ")
