@@ -1,10 +1,12 @@
 from __future__ import unicode_literals
 import youtube_dl
 
+count=input("Enter the song count: ")
+
 links=[]
 
-for i in range(1,3):
-    enter = input ("Enter the link")
+for i in range(0,int(count)):
+    enter = input ("Enter the link: ")
     links.append(enter)
     
 
